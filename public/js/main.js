@@ -31,8 +31,6 @@ const generateImageRequest = async (prompt, size) => {
     }
 
     const data = await response.json();
-    // console.log(data);
-
     const imageUrl = data.data;
 
     document.querySelector("#image").src = imageUrl;
