@@ -11,6 +11,8 @@ const onSubmit = (e) => {
   generateImageRequest(prompt, size);
 };
 
-const generateImageRequest = async (prompt, size) => {};
+const generateImageRequest = async (prompt, size) => {
+    
+};
 
 document.querySelector("#image-form").addEventListener("submit", onSubmit);
