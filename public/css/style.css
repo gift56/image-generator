@@ -96,6 +96,11 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
 }
+#image-form h1 {
+  text-align: center;
+  color: #f7a40cef;
+  width: 100%;
+}
 #image-form .formInput {
   display: flex;
   flex-direction: column;
@@ -112,7 +117,7 @@ body {
   height: 40px;
   background-color: #333442;
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 5px;
 }
 .form-control input,
