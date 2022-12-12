@@ -31,10 +31,14 @@ const generateImageRequest = async (prompt, size) => {
     }
 
     const data = await response.json();
-    
+
     const imageUrl = data.data;
 
     document.querySelector("#image").src = imageUrl;
+
+    if (imageUrl === 0) {
+      document.querySelector(".noImageYet").classList.add("show");
+    }
 
     removeSpinner();
   } catch (error) {

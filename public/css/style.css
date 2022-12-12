@@ -33,7 +33,7 @@ section {
   margin-top: 2rem;
 }
 .none {
-  display: none;
+  display: none !important;
 }
 
 /* stylings */
