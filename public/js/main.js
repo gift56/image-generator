@@ -8,7 +8,7 @@ const onSubmit = (e) => {
     alert("Please add some image description");
     return;
   }
-  console.log("success");
+  console.log(prompt, size);
 };
 
 document.querySelector("#image-form").addEventListener("submit", onSubmit);
