@@ -19,6 +19,11 @@ select {
   appearance: none;
   cursor: pointer;
 }
+
+a {
+  color: inherit;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -35,6 +40,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1rem;
   width: 100%;
 }
 .navbar h2 {
@@ -42,6 +48,10 @@ header {
   font-weight: 600;
   line-height: 20px;
   color: #fff;
+}
+.navbar .nav-links {
+  display: flex;
+  align-items: flex-end;
 }
 
 /* --primary-color: #f9b64d; */
