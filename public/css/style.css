@@ -119,6 +119,14 @@ body {
 .form-control select {
   padding-left: 12px;
 }
+
+.btn {
+  min-width: 145px;
+  height: 40px;
+  background-color: #ffa60098;
+  color: #fefefe;
+  border-radius: 8px;
+}
 .image {
   flex: 1;
 }
