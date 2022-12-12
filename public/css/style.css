@@ -11,7 +11,7 @@
 }
 
 select {
-  background-image: url();
+  background-image: url(../img/dropdownarrow.svg);
   background-repeat: no-repeat;
   background-position: right 16px center;
   appearance: none;
