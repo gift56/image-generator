@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -9,7 +11,7 @@
   text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
-
+/* classes */
 select {
   background-image: url(../img/dropdownarrow.svg);
   background-repeat: no-repeat;
@@ -22,10 +24,35 @@ select {
   margin: 0 auto;
 }
 
+/* stylings */
+
+header {
+  background: #000;
+  padding: 15px 0;
+}
+
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+}
+.navbar h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 20px;
 }
 
 /* --primary-color: #f9b64d; */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 10px 0;
+  }
+  .container {
+    width: 90%;
+  }
+  .navbar h2 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
