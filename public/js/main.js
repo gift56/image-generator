@@ -36,12 +36,6 @@ const generateImageRequest = async (prompt, size) => {
 
     document.querySelector("#image").src = imageUrl;
 
-    if (imageUrl !== 0) {
-      document.querySelector(".noImageYet").classList.add("none");
-    } else {
-      document.querySelector(".noImageYet").classList.remove("none");
-    }
-
     removeSpinner();
   } catch (error) {
     document.querySelector(".msg").textContent = error;
