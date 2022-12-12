@@ -11,8 +11,14 @@ const onSubmit = (e) => {
   generateImageRequest(prompt, size);
 };
 
-const generateImageRequest = async (prompt, size) => {
-    
+const generateImageRequest = async (prompt, size) => {};
+
+const showSpinner = () => {
+  document.querySelector(".spinner").classList.add("show");
+};
+
+const removeSpinner = () => {
+  document.querySelector(".spinner").classList.remove("show");
 };
 
 document.querySelector("#image-form").addEventListener("submit", onSubmit);
