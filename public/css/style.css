@@ -140,7 +140,8 @@ body {
 }
 .image-container {
   background-color: #fefefe;
-  height: auto;
+  border-radius: 12px;
+  height: fit-content;
 }
 /* --primary-color: #f9b64d; */
 @media screen and (max-width: 768px) {
