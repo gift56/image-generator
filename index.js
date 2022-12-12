@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-// Set static middleware
+// Set static folder
 
 app.use("/openai", require("./routes/openaiRoutes"));
 
