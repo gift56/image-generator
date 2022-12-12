@@ -137,11 +137,17 @@ body {
 }
 .image {
   flex: 1;
+  position: relative;
 }
 .image-container {
   background-color: #fefefe;
   border-radius: 12px;
   height: fit-content;
+}
+.msg {
+  color: #f7a40cef;
+  font-size: 25px;
+  font-weight: 500;
 }
 /* --primary-color: #f9b64d; */
 @media screen and (max-width: 768px) {
