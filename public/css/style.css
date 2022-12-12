@@ -33,7 +33,7 @@ a {
 
 header {
   background: #1d1e2a;
-  padding: 15px 0;
+  padding: 20px 0;
 }
 
 .navbar {
@@ -52,6 +52,12 @@ header {
 .navbar .nav-links {
   display: flex;
   align-items: flex-end;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+}
+.navbar .nav-links:hover {
+  color: #ffa60098;
 }
 
 /* --primary-color: #f9b64d; */
@@ -64,6 +70,8 @@ header {
   }
   .navbar h2 {
     font-size: 20px;
-    line-height: 20px;
+  }
+  .navbar .nav-links {
+    font-size: 16px;
   }
 }
