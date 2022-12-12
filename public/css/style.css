@@ -74,6 +74,7 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
+  gap: 3rem;
 }
 
 .showcase {
@@ -136,6 +137,9 @@ body {
 }
 .image {
   flex: 1;
+}
+.image {
+  background-color: #fefefe;
 }
 /* --primary-color: #f9b64d; */
 @media screen and (max-width: 768px) {
