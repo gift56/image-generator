@@ -27,7 +27,7 @@ select {
 /* stylings */
 
 header {
-  background: #000;
+  background: #1d1e2a;
   padding: 15px 0;
 }
 
@@ -41,6 +41,7 @@ header {
   font-size: 30px;
   font-weight: 600;
   line-height: 20px;
+  color: #fff;
 }
 
 /* --primary-color: #f9b64d; */
