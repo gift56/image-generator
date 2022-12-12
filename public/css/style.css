@@ -29,11 +29,20 @@ a {
   margin: 0 auto;
 }
 
+section {
+  margin-top: 2rem;
+}
+
 /* stylings */
 
 header {
   background: #1d1e2a;
   padding: 20px 0;
+}
+
+body {
+  background: #333442;
+  color: #fff;
 }
 
 .navbar {
