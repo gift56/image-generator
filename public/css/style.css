@@ -81,6 +81,11 @@ body {
   color: #1d1e2a;
   padding: 30px 20px;
   border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
   flex: 1;
 }
 .image {
