@@ -32,6 +32,9 @@ a {
 section {
   margin-top: 2rem;
 }
+.none {
+  display: none;
+}
 
 /* stylings */
 
@@ -149,6 +152,22 @@ body {
   font-size: 25px;
   font-weight: 500;
 }
+
+.noImageYet {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 30px 30px;
+}
+.noImageYet h4 {
+  color: #333442;
+  font-size: 20px;
+  font-weight: 400;
+}
+
 /* --primary-color: #f9b64d; */
 @media screen and (max-width: 768px) {
   header {
