@@ -1,6 +1,9 @@
 const onSubmit = (e) => {
   e.preventDefault();
 
+  document.querySelector(".msg").textContent = "";
+  document.querySelector("#image").src = "";
+
   const prompt = document.querySelector("#prompt").value;
   const size = document.querySelector("#size").value;
 
