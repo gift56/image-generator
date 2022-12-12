@@ -17,5 +17,15 @@ select {
   appearance: none;
   cursor: pointer;
 }
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 /* --primary-color: #f9b64d; */
