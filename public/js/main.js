@@ -32,7 +32,6 @@ const generateImageRequest = async (prompt, size) => {
 
     const data = await response.json();
     const imageUrl = data.data;
-
     document.querySelector("#image").src = imageUrl;
 
     removeSpinner();
