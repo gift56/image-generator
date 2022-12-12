@@ -69,6 +69,13 @@ body {
   color: #ffa60098;
 }
 
+.imageArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
 /* --primary-color: #f9b64d; */
 @media screen and (max-width: 768px) {
   header {
