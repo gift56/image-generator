@@ -138,8 +138,9 @@ body {
 .image {
   flex: 1;
 }
-.image {
+.image-container {
   background-color: #fefefe;
+  height: auto;
 }
 /* --primary-color: #f9b64d; */
 @media screen and (max-width: 768px) {
@@ -158,5 +159,9 @@ body {
   .imageArea {
     flex-direction: column;
     gap: 3rem;
+  }
+  .image,
+  .showcase {
+    width: 100%;
   }
 }
