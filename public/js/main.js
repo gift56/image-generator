@@ -28,6 +28,7 @@ const generateImageRequest = async (prompt, size) => {
         size,
       }),
     });
+    
     if (!response.ok) {
       removeSpinner();
       throw new Error("That image could not be generated");
