@@ -140,33 +140,14 @@ body {
 }
 .image {
   flex: 1;
-  position: relative;
-  padding: 12px;
 }
-.image-container {
-  background-color: #fefefe;
+.image img {
   border-radius: 12px;
-  height: fit-content;
 }
 .msg {
   color: #f7a40cef;
   font-size: 18px;
   font-weight: 500;
-}
-
-.noImageYet {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  padding: 30px 30px;
-}
-.noImageYet h4 {
-  color: #333442;
-  font-size: 20px;
-  font-weight: 400;
 }
 
 /* --primary-color: #f9b64d; */
