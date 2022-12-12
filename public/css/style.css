@@ -76,6 +76,16 @@ body {
   width: 100%;
 }
 
+.showcase {
+  background: #fefefe;
+  color: #1d1e2a;
+  padding: 30px 20px;
+  border-radius: 12px;
+  flex: 1;
+}
+.image {
+  flex: 1;
+}
 /* --primary-color: #f9b64d; */
 @media screen and (max-width: 768px) {
   header {
